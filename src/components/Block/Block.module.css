@@ -75,29 +75,36 @@
 
 .boxJoin{
     display: grid;
-    height: 150px;
-    padding: 15px;
+    height: 190px;
+    width: 100%;
+    /* padding: 15px; */
     
    
-    grid-template-rows: 40% 40% 20% ;
+    grid-template-rows: 50% 35% 10% ;
 
-     grid-gap: 5px;
-     background-color: #f0f2f2;
+    text-align: center;
+     
+     background-color: #f4f4f4;
+     padding: 13.33px 10px;
+     box-shadow: 8px 8px 5px 0 rgba(85,85,85,.15);
+ }
   
    
    
-}
+
 .boxJoin > p {
    
     text-align: center;
 
   }
-.title{
+.boxJoin .title {
     color: #007ce0;
     font-family: ArsMaquette,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 900;
     line-height: 1.1em;
-    font-size: 1.3em;
+    font-size: 1.8em;
+
+    
 
 }
 
