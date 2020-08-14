@@ -1,27 +1,39 @@
 import React from 'react';
+import classes from './FooterNav.module.css';
+
 
 
 const FooterNav = () => (
-    <div>
-    <div>
-        <p>Consult your healthcare professional before beginning any diet or fitness regime.
-            Copyright © 2020 12WBT Trading Pty Ltd.
-        </p>
+   
+    
+        <div className={classes.wrapper}>
+            <div>
+    <a href="https://www.12wbt.com/blog">12WBT Blog</a>
     </div>
     <div>
-        <ul>
-            <li>12WBT Blog|</li>
-            <li>Support Crew|</li>
-            <li>Careers|</li>
-            <li>Contact Us|</li>
-            <li>Terms|Privacy</li>
-        </ul>
-        <p>* Results may vary. Exercise and proper diet are necessary to achieve and maintain weight loss.
+    |<a href="/careers/our-team">Support Crew</a>
+    </div>
+    <div>
+    |<a href="/careers">Careers</a>
+    </div>
+    <div>
+    |<a href="/faqs/question">Contact Us</a>
+    </div>
+    <div>
+    |<a href="/terms">Terms</a>
+    </div>
+    <div>
+    |<a href="/privacy">Privacy</a>
+    </div>
 
-        <a href="">** View full competition terms and conditions here.</a></p>
-    </div>
+        {/* <p>* Results may vary. Exercise and proper diet are necessary to achieve and maintain weight loss.
+
+        <a href="">** View full competition terms and conditions here.</a></p> */}
+   
 
 </div>
+
+
 
 
 );
