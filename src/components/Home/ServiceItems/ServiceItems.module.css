@@ -1,43 +1,36 @@
-.serviceItems{
-    display: grid; 
-    max-width: 1140px;
-    min-width: 540px;
-    margin: auto;
-    justify-content: space-around;
-    grid-template-columns: 100% 100%;
-    
-    grid-template-rows: 200px  200px;
-     grid-gap: 10px;
-     
-   
-    padding: 10px;
-
+.serviceItems {
+  display: grid;
+  max-width: 1140px;
+  min-width: 540px;
+  margin: auto;
+  justify-content: space-around;
+  grid-template-columns: 100% 100%;
+  grid-template-rows: 200px 200px;
+  grid-gap: 10px;
+  padding: 10px;
 }
 
-
-.serviceItem ul{
-    font-size: 16px;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-weight: 400;
-    font-style: normal;
-    line-height: 1;
-    font-family: inherit;
-    text-align: left;
-    text-decoration: none;
+.serviceItem ul {
+  font-size: 16px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: 400;
+  font-style: normal;
+  line-height: 1;
+  font-family: inherit;
+  text-align: left;
+  text-decoration: none;
 }
 
-.serviceItem ul li{
-    margin: 5px 0;
-    text-align: center;
-    background: 0 0;
-    padding-left: 0;
-    font-size: 16px;
-    color: #3c444d;
-    font-weight: 300;
-    line-height: 1.6em;
+.serviceItem ul li {
+  margin: 5px 0;
+  text-align: center;
+  background: 0 0;
+  padding-left: 0;
+  font-size: 16px;
+  color: #3c444d;
+  font-weight: 300;
+  line-height: 1.6em;
 }
-
-

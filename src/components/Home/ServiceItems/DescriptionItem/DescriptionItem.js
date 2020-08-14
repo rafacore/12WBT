@@ -1,9 +1,13 @@
-import React from 'react';
+import React from "react";
 
-const DescriptionItem = ( props ) =>(
-
-    <li>{props.children}</li>
-);
-
+const DescriptionItem = (props) => {
+  return (
+    <>
+      {props.children.map((keyName, i) => (
+        <li>{props.children}</li>
+      ))}
+    </>
+  );
+};
 
 export default DescriptionItem;

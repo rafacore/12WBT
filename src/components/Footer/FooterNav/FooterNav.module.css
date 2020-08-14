@@ -1,19 +1,18 @@
 .wrapper {
-    display: grid;
-grid-gap: 10px;
-width: 100%;
-    grid-template-columns: auto auto auto auto auto auto auto;
-    /* grid-template-rows: [row] auto [row] auto [row] ; */
-    background-color: #fff;
-    color: #444;
+  display: grid;
+  grid-gap: 10px;
+  width: 100%;
+  grid-template-columns: repeat(7, [col] auto);
+  /* grid-template-rows: [row] auto [row] auto [row] ; */
+  background-color: #fff;
+  color: #444;
 }
-.wrapper div{
-    
-    color: #999;
-   }
+.wrapper div {
+  color: #999;
+}
 
-.wrapper div a{
- text-align: center;
- margin-left: 10px;
- color: #999;
+.wrapper div a {
+  text-align: center;
+  margin-left: 10px;
+  color: #999;
 }

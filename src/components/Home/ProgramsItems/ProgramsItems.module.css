@@ -1,24 +1,14 @@
-
-.programsItems{
-
-    display: grid; 
-    justify-content: space-around;
-    grid-template-columns: 335px 335px;
-    
-    grid-template-rows: 195px 195px ;
-     grid-gap: 10px;
-     
-   
-    padding: 10px;
-   
+.programsItems {
+  display: grid;
+  justify-content: space-around;
+  grid-template-columns: 335px 335px;
+  grid-template-rows: 195px 195px;
+  grid-gap: 10px;
+  padding: 10px;
 }
-.programsItems a{
-    display: grid;
-    width: 100%;
-    margin: 0 auto;
-   
-    
-    text-align: center;
-
+.programsItems a {
+  display: grid;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
 }
- 

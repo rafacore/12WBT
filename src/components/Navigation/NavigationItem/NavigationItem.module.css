@@ -1,36 +1,17 @@
-.NavigationItem{
-
-   
-    padding-right: .5rem;
-    padding-left: .5rem;
-    font-size: 14px;
-    margin: 1em .5em;
-  
-   
-
+.NavigationItem {
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+  font-size: 14px;
+  margin: 1em 0.5em;
 }
 
- .NavigationItem a {
-
-    color: rgba(0,0,0,.5)!important;
-    text-decoration: none;
-    
-    
- }
-
-/*
-    color: #8F5C2C;
-    
-    width: 100%;
-
-    box-sizing: border-box;
-    display: block;
-    */
+.NavigationItem a {
+  color: rgba(0, 0, 0, 0.5) !important;
+  text-decoration: none;
+}
 
 .NavigationItem a:hover,
 .NavigationItem a:active,
-.NavigationItem a.active{
-    
-    color: rgba(0,0,0,.7)!important;
-
-} 
+.NavigationItem a.active {
+  color: rgba(0, 0, 0, 0.7) !important;
+}

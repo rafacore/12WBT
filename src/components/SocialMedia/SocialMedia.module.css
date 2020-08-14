@@ -1,0 +1,30 @@
+.socialContent {
+  max-width: 1140px;
+  min-width: 540px;
+  margin: auto;
+  display: grid;
+  height: 130px;
+  justify-content: space-around;
+  grid-template-columns: 40% 40%;
+  background-color: #f4f4f4;
+  grid-template-rows: 200px;
+  grid-gap: 10px;
+  padding: 10px;
+}
+.socialIconBox {
+  display: grid;
+  justify-content: space-around;
+  grid-template-columns: 10% 10% 10% 10%;
+  grid-template-rows: 200px;
+  grid-gap: 10px;
+  padding: 10px;
+}
+.title {
+  line-height: 2.5rem;
+  font-size: 2rem;
+  color: #003b70;
+  text-shadow: none;
+  text-transform: none;
+  font-family: ArsMaquette, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 900 !important;
+}

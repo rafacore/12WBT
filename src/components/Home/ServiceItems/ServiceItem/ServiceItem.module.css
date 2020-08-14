@@ -1,5 +1,5 @@
 .serviceItem .title{
-    background: #3de5c7;
+    
     box-shadow: 8px 8px 5px 0 rgba(85,85,85,.15);
     padding: 6.67px;
     font-size: 1.9rem;
@@ -49,4 +49,16 @@
     text-shadow: none;
     background: #01c460;
     text-decoration: none;
+}
+.nutrition{
+    background-color: #3de5c7!important;
+}
+.fitness{
+    background-color: #ee3642;
+}
+.mindset{
+    background-color:#f573b0;
+}
+.support{
+    background-color:#634cb7;;
 }
