@@ -1,0 +1,15 @@
+
+.programsItems{
+
+    display: grid; 
+    justify-content: space-around;
+    grid-template-columns: 300px 300px;
+    
+    grid-template-rows: 195px 195px ;
+     grid-gap: 10px;
+     
+   
+    padding: 10px;
+   
+}
+ 
