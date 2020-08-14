@@ -29,3 +29,32 @@
     
     
 }
+
+.socialIcon{
+    display: grid; 
+    
+    margin: auto;
+    justify-content: space-around;
+    grid-template-columns:repeat(5, [col] 50px );
+    
+    grid-template-rows: 35px 50px;
+    
+    
+    
+   
+
+}
+.socialIcon img{
+
+    width: 30px;
+    text-align: right;
+}
+.socialBoxText{
+    grid-column: col / span 5;
+    grid-row: row 0;
+    text-align: right;
+    margin-right: 20px;
+   
+
+
+}
