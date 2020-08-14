@@ -1,5 +1,23 @@
 .logo{
-    margin-right: 1em!important;
-    padding-right: 1.5em!important;
+    margin-right: 1em;
+    padding: 0.7em 01.5em 0.0em 0.5em;
     border-right: 1px solid #ccc;
+    width: 140px;
 }
+.logo img{
+  
+    width: 140px;
+}
+.logoF{
+    margin-right: 1em;
+    padding: 0.7em 01.5em 0.0em 0.5em;
+    
+  
+}
+.logoF img{
+   
+    padding: 0.7em 01.5em 0.0em 0.5em;
+    
+   ;
+}
+
