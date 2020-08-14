@@ -120,19 +120,7 @@ const Home = () => (
         </section>
 
         <section className={classes.socialMediaSec}>
-            {/* <div>
-                <p>Join the community</p>
-            </div>
-            <div className={classes.socialIconBox}>
-            
-                <div>face</div>
-                <div>face</div>
-                <div>face</div>
-                <div>face</div>
-                
-               
-          
-            </div> */}
+           
             <SocialMedia title="Join the community"></SocialMedia>
         </section>
        <section className={classes.joinSec}>
