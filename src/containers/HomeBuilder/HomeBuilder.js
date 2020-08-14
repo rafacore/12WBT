@@ -1,10 +1,11 @@
 import React from "react";
 import Banner from '../../components/Banner/Banner';
 import Block from '../../components/Block/Block';
+import Footer from '../../components/Footer/Footer';
 import ServiceItems from '../../components/Home/ServiceItems/ServiceItems';
 import Slides from '../../components/UI/Slides/Slides';
 import SocialMedia from '../../components/Home/SocialMedia/SocialMedia';
-import FooterNav from '../../components/Footer/FooterNav/FooterNav';
+
 import classes from "./HomeBuilder.module.css";
 import ProgramsItems from '../../components/Home/ProgramsItems/ProgramsItems';
 import BlockImgHp from "../../assets/images/home/mishandtodd-hp.jpg";
@@ -135,6 +136,7 @@ const Home = () => (
             <SocialMedia title="Join the community"></SocialMedia>
         </section>
        <section className={classes.joinSec}>
+           <div className={classes.joinContent}>
             <h3>Our members have lost over
 1.5 million kilograms with our exercises, meal plans & mindset lessons*</h3>
 
@@ -143,20 +145,13 @@ const Home = () => (
             title="Your success story is next!"
             subTitle=" " 
             textBtn="JOIN NOW"/>
+
+</div>
         </section>
     
-    <footer className={classes.FooterSec}>
-        <Logo></Logo>
-        <FooterNav></FooterNav>
-       
-         <div>
-                <ul>
-                    <li>face</li>
-                    <li>face</li>
-                    <li>face</li>
-                    <li>face</li>
-                </ul>
-            </div>
+    <footer >
+        <Footer></Footer>
+     
         
         
     </footer>

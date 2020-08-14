@@ -212,18 +212,10 @@ font-size: 1.2rem;
 
 
 .socialMediaSec{
-    display: grid; 
-      max-width: 1140px;
-    min-width: 540px;
-    margin: auto;
-    justify-content: space-around;
-    grid-template-columns: 40% 40%;
     
-    grid-template-rows: 200px;
-     grid-gap: 10px;
      
-   
-    padding: 10px;
+    height: 130px;
+    background-color: #f4f4f4;
 }
 /* 
 }
@@ -244,7 +236,14 @@ font-size: 1.2rem;
 /*join section */
 
 .joinSec{
-
+    height: 380px;
+   
+    background-image: url(../../assets/images/home/1millionkilosgroup-footer.jpg);
+    background-size: cover; 
+    padding: 30px;
+    
+}
+.joinContent{
     display: grid; 
     justify-content: space-around;
     grid-template-columns: 50% 30%;
@@ -253,26 +252,27 @@ font-size: 1.2rem;
      grid-gap: 10px;
      
    
-    padding: 10px;
+    padding-top: 100px;
 
-    background-image: url(../../assets/images/home/1millionkilosgroup-footer.jpg);
-    background-size: cover; 
+    max-width: 1140px;
+    min-width: 540px;
     
+    margin: auto ;
+
+}
+
+.joinSec h3{
+
+    font-size: 1.9rem;
+    line-height: 2.1rem;
+    text-align: center;
+    color: #fff;
+    text-transform: none;
+    font-family: ArsMaquette,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 900!important;
+    margin: .8em 0;
+
 }
 
 
 
-/* section footer ****  */
-.FooterSec{
-    display: grid; 
-    justify-content: space-around;
-    grid-template-columns: 20% 50% 20%;
-    
-    grid-template-rows: 200px;
-     grid-gap: 10px;
-     
-   
-    padding: 10px;
-
-
-}
