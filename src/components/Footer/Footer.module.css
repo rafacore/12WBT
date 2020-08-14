@@ -1,0 +1,31 @@
+.FooterSec{
+    display: grid; 
+    max-width: 1140px;
+    margin: auto;
+    justify-content: space-around;
+    grid-template-columns: 20% 50% 20%;
+    
+    grid-template-rows: 80px 50px;
+     grid-gap: 0px;
+     
+   
+    padding: 10px;
+
+
+}
+.FooterSec p{
+    color: #999;
+    margin-top: 20px;
+}
+.FooterSec a{
+    color: #3c444d;
+    text-decoration: none;
+    margin-bottom: 30px;
+    
+}
+.FooterSec a:hover{
+    color: #3c444d;
+    text-decoration: underline;
+    
+    
+}
