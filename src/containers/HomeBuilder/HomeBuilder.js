@@ -2,6 +2,7 @@ import React from "react";
 import Banner from '../../components/Banner/Banner';
 import Block from '../../components/Block/Block';
 import ServiceItems from '../../components/Home/ServiceItems/ServiceItems';
+import Slides from '../../components/UI/Slides/Slides';
 import SocialMedia from '../../components/Home/SocialMedia/SocialMedia';
 import FooterNav from '../../components/Footer/FooterNav/FooterNav';
 import classes from "./HomeBuilder.module.css";
@@ -55,12 +56,15 @@ const Home = () => (
 
     <section className={`${classes.showcase}`}>
         <h2>We've lost 1.5 million kilos</h2>
-        <div>Carousel</div>
+        <div className={classes.container}>
+        <Slides/>
+        </div>
 
-        <p>YOUR story is next!</p>
+<div><p>YOUR story is next!</p>
         <p>
 * Results may vary. Exercise and proper diet are necessary to achieve and maintain weight loss.
         </p>
+        </div>
     </section>
     <section className={`${classes.workMethodBanner}`}>
        <h2> Why 12WBT will work for YOU </h2>
