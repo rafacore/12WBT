@@ -6,7 +6,7 @@ const Block = (props) => {
     return(
 
       <div className={classes.boxJoin}>
-      <div><p className={classes.title}>Your success story is next!</p></div>
+      <div><h3 className={classes.title}>Your success story is next!</h3></div>
       <div><a href="#"> <div className={classes.btnCheck}>JOIN NOW > </div></a></div>
       <div><p className={classes.warningTxt}>Payment plans available</p></div>
 
