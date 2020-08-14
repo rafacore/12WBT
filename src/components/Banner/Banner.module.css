@@ -1,0 +1,64 @@
+.BannerSec{
+    display: grid;
+    background: hsla(0,0%,100%,.85);
+    text-align: center;
+    line-height: 1.14em;
+}
+.container {
+    max-width: 1140px;
+    min-width: 540px;
+    margin: auto;
+ 
+}
+.BannerSec h1{
+    font-size: 1.6rem;
+    margin-bottom: 0;
+    height: auto;
+    padding: 0;
+    line-height: 1.14em;
+    font-weight: 900!important;
+    color: #007bff!important;
+}
+.BannerSec p{
+    font-size: 1.2rem;
+    color: #464646;
+    line-height: 0;
+}
+
+
+
+
+
+
+/*    case 2 */
+
+.workMethodBox{
+    display: grid; 
+    justify-content: space-around;
+    grid-template-columns: 300px 300px 300px;
+    
+    grid-template-rows: 275px;
+     grid-gap: 10px;
+     
+   
+    padding: 10px;
+    background-color: #F4F4F4;
+}
+.workMethodItem h3{ 
+    font-family: ArsMaquette-Black,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    letter-spacing: .01rem;
+    font-weight: 900!important;
+    font-size: 1.9rem;
+    line-height: 2.1rem;
+    color: #003b70;
+    text-align: center;
+
+}
+.workMethodItem p{ 
+font-size: 1.2rem;
+    color: #3c444d;
+    font-weight: 300;
+    margin: 0 0 1.2em;
+    line-height: 1.6em;
+    text-align: center;
+}
