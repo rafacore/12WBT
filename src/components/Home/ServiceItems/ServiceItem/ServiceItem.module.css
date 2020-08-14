@@ -1,0 +1,52 @@
+.serviceItem .title{
+    background: #3de5c7;
+    box-shadow: 8px 8px 5px 0 rgba(85,85,85,.15);
+    padding: 6.67px;
+    font-size: 1.9rem;
+    line-height: 2.1rem;
+    margin: .8em 0;
+    text-align: center;
+    color: #fff;
+    text-transform: none;
+    font-family: ArsMaquette,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 900;
+}
+.serviceItem ul{
+    font-size: 16px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1;
+    font-family: inherit;
+    text-align: left;
+    text-decoration: none;
+}
+
+.serviceItem ul li{
+    margin: 5px 0;
+    text-align: center;
+    background: 0 0;
+    padding-left: 0;
+    font-size: 16px;
+    color: #3c444d;
+    font-weight: 300;
+    line-height: 1.6em;
+}
+
+.btnItemSer{
+    display: block;
+    width: 100%;
+    padding: 15px;
+    font-size: 1.6rem;
+    line-height: 1.75rem;
+    white-space: normal;
+    border-radius: 0;
+    color: #fff;
+    box-shadow: none;
+    text-shadow: none;
+    background: #01c460;
+    text-decoration: none;
+}
