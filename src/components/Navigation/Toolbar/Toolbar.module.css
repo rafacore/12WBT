@@ -1,0 +1,11 @@
+.Toolbar{
+    display: grid;
+    grid-template-columns: 15% auto 15%;
+    max-width: 1140px;
+    min-width: 540px;
+    margin: auto;
+}
+
+
+
+
