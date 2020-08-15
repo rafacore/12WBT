@@ -16,6 +16,7 @@ const Banner = (props) => {
   return (
     <div className={classes.workMethodItem}>
       <h3>{props.title}</h3>
+
       <p>{props.subTitle}</p>
     </div>
   );
