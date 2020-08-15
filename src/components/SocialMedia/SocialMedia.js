@@ -1,10 +1,10 @@
 import React from "react";
 import classes from "./SocialMedia.module.css";
-import Face from "../../../assets/images/socialMedia/face.svg";
-import Insta from "../../../assets/images/socialMedia/insta.svg";
-import Pint from "../../../assets/images/socialMedia/pint.svg";
-import Twitter from "../../../assets/images/socialMedia/twitter.svg";
-import Youtube from "../../../assets/images/socialMedia/youtube.svg";
+import Face from "../../assets/images/socialMedia/face.svg";
+import Insta from "../../assets/images/socialMedia/insta.svg";
+import Pint from "../../assets/images/socialMedia/pint.svg";
+import Twitter from "../../assets/images/socialMedia/twitter.svg";
+import Youtube from "../../assets/images/socialMedia/youtube.svg";
 
 const Icons = [Face, Insta, Twitter, Youtube];
 

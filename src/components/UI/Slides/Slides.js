@@ -2,8 +2,14 @@ import React, { useState } from "react";
 import ReactSlidy from "react-slidy";
 import "react-slidy/lib/styles.css";
 import img from "../../../assets/images/home/carousel/BA-Sue-1.jpeg";
+import img1 from "../../../assets/images/home/carousel/BA-Craig-5.jpeg";
+import img2 from "../../../assets/images/home/carousel/BA-Jenny-2.jpeg";
+import img3 from "../../../assets/images/home/carousel/BA-Karissa-4.jpeg";
+import img4 from "../../../assets/images/home/carousel/BA-Keith-7.jpeg";
+import img5 from "../../../assets/images/home/carousel/BA-Richelle-3.jpeg";
+import img6 from "../../../assets/images/home/carousel/BA-Ryan-6.jpeg";
 
-const SLIDES = [img, img, img, img, img, img];
+const SLIDES = [img, img1, img2, img3, img4, img5, img6];
 const createStyles = (isActive) => ({
   background: "transparent",
   border: 0,
