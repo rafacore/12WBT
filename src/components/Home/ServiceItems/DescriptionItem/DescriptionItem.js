@@ -1,13 +1,7 @@
 import React from "react";
 
-const DescriptionItem = (props) => {
-  return (
-    <>
-      {props.children.map((keyName, i) => (
-        <li>{props.children}</li>
-      ))}
-    </>
-  );
+const DescriptionItem = ({ label }) => {
+  return <>{label}</>;
 };
 
 export default DescriptionItem;

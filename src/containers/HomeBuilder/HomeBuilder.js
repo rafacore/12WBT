@@ -85,13 +85,13 @@ const Home = () => (
     </section>
     <section className={`${classes.Services}`}>
       <h2>What do YOU get?</h2>
-      <ServiceItems title="nutrition"> </ServiceItems>
+      <ServiceItems />
 
       <div>
         <a href="">
           <div className={classes.btnItemSer}>
             Curious about my 12WBT? Get a FREE sample today >{" "}
-          </div>{" "}
+          </div>
         </a>
       </div>
     </section>

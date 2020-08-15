@@ -1,28 +1,31 @@
 import React from "react";
-import DescriptionItem from "../DescriptionItem/DescriptionItem";
+import Item from "../DescriptionItem/DescriptionItem";
 import classes from "./ServiceItem.module.css";
 
-const ServiceItem = (props) => (
+const ServiceItem = ({ type, title, items }) => (
   <div className={classes.serviceItem}>
     <h3
-      className={`${classes.title} ${
-        props.item === "nutrition"
+      className={`${classes.text} ${
+        type === "nutrition"
           ? classes.nutrition
-          : props.item === "fitness"
+          : type === "fitness"
           ? classes.fitness
-          : props.item === "mindset"
+          : type === "mindset"
           ? classes.mindset
-          : props.item === "support"
+          : type === "support"
           ? classes.support
           : null
       }`}
     >
-      {props.title}
+      {title}
     </h3>
-
     <ul>
-      <DescriptionItem> {props.children}</DescriptionItem>
-      <DescriptionItem> {props.children}</DescriptionItem>
+      {items &&
+        items.map((item) => (
+          <li key={item.label}>
+            <Item label={item.label} />
+          </li>
+        ))}
     </ul>
   </div>
 );
