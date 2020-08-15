@@ -4,7 +4,7 @@ import Block from "../../components/Block/Block";
 import Footer from "../../components/Footer/Footer";
 import ServiceItems from "../../components/Home/ServiceItems/ServiceItems";
 import Slides from "../../components/UI/Slides/Slides";
-import SocialMedia from "../../components/Home/SocialMedia/SocialMedia";
+import SocialMedia from "../../components/SocialMedia/SocialMedia";
 
 import classes from "./HomeBuilder.module.css";
 import ProgramsItems from "../../components/Home/ProgramsItems/ProgramsItems";
@@ -20,21 +20,6 @@ const Home = () => (
             It's time to do something for YOU!"`}
         subTitle="12 weeks will change your life"
       />
-      {/* <div className={classes.testg}>
-            <div>1</div>
-            <div>2</div>
-            <div>3</div>
-            <div>4</div>
-            <div>5</div>
-            <div>6</div>
-            <div>7</div>
-            <div>8</div>
-            <div>9</div>
-            <div>10</div>
-            <div>11</div>
-            <div>12</div>
-            
-     </div> */}
     </section>
 
     <section className={classes.LaunchedSec}>
@@ -51,13 +36,13 @@ const Home = () => (
     </section>
 
     <section className={`${classes.showcase}`}>
-      <h2>We've lost 1.5 million kilos</h2>
+      <h2 className={classes.title}>We've lost 1.5 million kilos</h2>
       <div className={classes.container}>
         <Slides />
       </div>
 
       <div>
-        <p>YOUR story is next!</p>
+        <h2>YOUR story is next!</h2>
         <p>
           * Results may vary. Exercise and proper diet are necessary to achieve
           and maintain weight loss.
@@ -99,7 +84,7 @@ const Home = () => (
       <ProgramsItems />
     </section>
     <section className={`${classes.Services}`}>
-      <h3>What do YOU get?</h3>
+      <h2>What do YOU get?</h2>
       <ServiceItems title="nutrition"> </ServiceItems>
 
       <div>

@@ -1,9 +1,10 @@
 .Toolbar{
     display: grid;
-    grid-template-columns: 15% auto 15%;
+    grid-template-columns: 15% auto 25%;
     max-width: 1140px;
     min-width: 540px;
     margin: auto;
+    grid-gap: 10px;
     height: 68px;
 }
 

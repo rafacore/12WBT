@@ -20,26 +20,15 @@
   font-size: 40px;
 }
 
-/* a{
-    display: grid;
-    width: 100%;
-    margin: 0 auto;
-   
-    
-    text-align: center;
-
-} */
 .btnCheck {
   background-color: #003b70;
   color: #fff;
   width: 200px;
   margin: 0 auto;
   padding: 15px;
-
   font-weight: 900;
-
   font-size: 14pt;
-  align-self: center;
+  text-align: center;
 }
 
 .imgHp img {
@@ -84,7 +73,7 @@
 
   text-align: center;
 }
-.btnCheck {
+.btnJoin {
   padding: 15px 0px;
 
   width: 100%;
