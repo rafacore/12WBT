@@ -23,6 +23,7 @@ const ServiceItem = ({ type, title, items }) => (
       {items &&
         items.map((item) => (
           <li key={item.label}>
+            <span></span>
             <Item label={item.label} />
           </li>
         ))}

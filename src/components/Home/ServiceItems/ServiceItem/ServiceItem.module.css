@@ -60,3 +60,14 @@
 .support {
   background-color: #634cb7;
 }
+
+ul li span:before {
+  background: #3de5c7;
+  position: absolute;
+  content: "";
+  width: 12px;
+  height: 12px;
+  top: 6px;
+  left: -24px;
+  border-radius: 10px;
+}
