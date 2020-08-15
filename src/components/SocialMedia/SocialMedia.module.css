@@ -7,7 +7,7 @@
   justify-content: space-around;
   grid-template-columns: 40% 40%;
   background-color: #f4f4f4;
-  grid-template-rows: 200px;
+  grid-template-rows: 130px;
   grid-gap: 10px;
   padding: 10px;
 }
@@ -15,9 +15,9 @@
   display: grid;
   justify-content: space-around;
   grid-template-columns: 10% 10% 10% 10%;
-  grid-template-rows: 200px;
+  grid-template-rows: 130px;
   grid-gap: 10px;
-  padding: 10px;
+  padding: 20px 0;
 }
 .title {
   line-height: 2.5rem;

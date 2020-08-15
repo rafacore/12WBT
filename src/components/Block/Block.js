@@ -11,7 +11,7 @@ const Block = (props) => {
         <div>
           <a href="#">
             {" "}
-            <div className={classes.btnCheck}>JOIN NOW > </div>
+            <div className={classes.btnJoin}>JOIN NOW > </div>
           </a>
         </div>
         <div>
@@ -28,7 +28,7 @@ const Block = (props) => {
             <p className={classes.title}>{props.title}</p>
             <p>{props.subTitle}</p>
             <a href="#">
-              <div className={classes.btnCheck}> {props.textBtn} </div>{" "}
+              <div className={classes.btnCheck}> {props.textBtn} </div>
             </a>
             <p>{props.warning}</p>
           </div>
